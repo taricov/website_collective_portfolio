@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+:root{
+    --color-base:rgb(229, 224, 208);
+    --color-accent:"";
+
+    --ff-1: 'Ubuntu Mono', monospace;
+--fs-1:1.5rem;
+--fs-2:2rem;
+--fs-3:3rem;
+
+--gutter-1: 2em;
+--gutter-2: 4em;
+--gutter-3: 6em;
+    --pd-txt:1em;
+    --pd-container:4em;
+
+
+}
+

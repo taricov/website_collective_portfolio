@@ -1,0 +1,62 @@
+@import "./variables.css";
+
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: var(--ff-1);
+    background-color: var(--color-base);
+}
+
+header,
+main,
+section{
+    width: 100vw;
+    text-align: center;
+}
+
+
+a{
+ text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+small{
+    font-size: var(--fs-1);
+    letter-spacing: 1em;
+}
+p{
+    margin: var(--gutter-1);
+    font-size: calc(var(--fs-1)*.6);
+}
+.title__wrapper{
+    font-size: var(--fs-3);
+margin: var(--gutter-1) auto;
+text-transform: capitalize;
+}
+.about__section{
+font-size: var(--fs-1); 
+width: 60%;
+margin: 0 auto; 
+
+}
+
+.list__wrapper{
+    padding: var(--pd-container);
+    font-size: var(--fs-2);
+}
+
+.list__item{
+    cursor: pointer;
+    border-bottom: 2px solid #000;
+    padding: var(--pd-txt);
+}
