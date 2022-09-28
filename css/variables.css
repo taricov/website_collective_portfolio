@@ -3,6 +3,7 @@
 :root{
     --color-base:rgb(229, 224, 208);
     --color-accent:"";
+    --color-font:#393737;
 
     --ff-1: 'Ubuntu Mono', monospace;
 --fs-1:1.5rem;
@@ -15,6 +16,7 @@
     --pd-txt:1em;
     --pd-container:4em;
 
-
+    --ltrs-2:3em;
+--trans-1: 0.4s;
 }
 

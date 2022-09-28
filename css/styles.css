@@ -7,12 +7,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    transition: var(--trans-1);
 }
 
 
 body{
+    color: var(--color-font);
     font-family: var(--ff-1);
     background-color: var(--color-base);
+
 }
 
 header,
@@ -31,17 +34,29 @@ ul{
     list-style: none;
 }
 small{
+    display: block;
     font-size: var(--fs-1);
     letter-spacing: 1em;
 }
-p{
+.used__langs{
+    word-spacing: 2em;
     margin: var(--gutter-1);
+}
+.used__langs >*{
+    opacity: .4 ;
     font-size: calc(var(--fs-1)*.6);
+    cursor: pointer;
+}
+.used__langs >*:hover{
+    opacity: 1;
 }
 .title__wrapper{
     font-size: var(--fs-3);
 margin: var(--gutter-1) auto;
 text-transform: capitalize;
+}
+.subtitle__container{
+    text-align: center;
 }
 .about__section{
 font-size: var(--fs-1); 
