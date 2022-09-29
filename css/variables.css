@@ -4,6 +4,7 @@
     --color-base:rgb(229, 224, 208);
     --color-accent:"";
     --color-font:#393737;
+    --color-disabled: #b2b2b2;
 
     --ff-1: 'Ubuntu Mono', monospace;
 --fs-1:1.5rem;

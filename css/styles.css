@@ -101,34 +101,21 @@ margin: 0 auto;
 
 
 .list__item:hover:after{
-    top:0%;
+top:0%;
 }
 .list__item:hover::before{
-    height: 500px;
+height: 500px;
 }
-
 .list__item:hover{
 height: 500px;
 }
 
+.hide__item::after{
+    border: 1px solid var(--color-disabled);
 
-
-.used__langs{
-    display: flex;
-    justify-content: center;
-    gap: var(--gutter-1)
 }
-
-.filter__label{
-    cursor: pointer;
-}
-
-.filter__radio{
-    display: none;
-}
-.filter__radio:checked{
-}
-
-.hide__others{
-    opacity: 0;
+.hide__item{
+    user-select: none;
+    pointer-events: none;
+    color: var(--color-disabled);
 }
