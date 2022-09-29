@@ -85,13 +85,25 @@ margin: 0 auto;
     width: 100%;
     top: 100%;
     left: 0;
-    background-color: #000;
     border-bottom: 2px solid #000;
+}   
+.list__item::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    background-size: cover;
+    background-image: url("https://media.giphy.com/media/Iw4r8ErCvPbfAmu5xZ/giphy.gif");
 }   
 
 .list__item:hover:after{
 top:0%;
-
+}
+.list__item:hover::before{
+height: 500px;
 }
 .list__item:hover{
 height: 500px;
