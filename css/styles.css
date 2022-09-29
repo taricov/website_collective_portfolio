@@ -99,12 +99,36 @@ margin: 0 auto;
     background-image: url("https://media.giphy.com/media/Iw4r8ErCvPbfAmu5xZ/giphy.gif");
 }   
 
+
 .list__item:hover:after{
-top:0%;
+    top:0%;
 }
 .list__item:hover::before{
-height: 500px;
+    height: 500px;
 }
+
 .list__item:hover{
 height: 500px;
+}
+
+
+
+.used__langs{
+    display: flex;
+    justify-content: center;
+    gap: var(--gutter-1)
+}
+
+.filter__label{
+    cursor: pointer;
+}
+
+.filter__radio{
+    display: none;
+}
+.filter__radio:checked{
+}
+
+.hide__others{
+    opacity: 0;
 }
