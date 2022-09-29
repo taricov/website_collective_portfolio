@@ -33,10 +33,18 @@ a{
 ul{
     list-style: none;
 }
+.subtitle__container{
+    margin-top: calc(var(--gutter-1)*.2);
+
+}
 small{
     display: block;
+    padding:  .4em var(--pd-txt);
     font-size: var(--fs-1);
-    letter-spacing: 1em;
+    width: 40%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    /* letter-spacing: 0.5em; */
 }
 .used__langs{
     word-spacing: 2em;
