@@ -43,7 +43,7 @@ small{
     margin: var(--gutter-1) 0 0;
 }
 .used__langs >*{
-    opacity: .4 ;
+    opacity: .4;
     font-size: calc(var(--fs-1)*.6);
     cursor: pointer;
 }
@@ -118,4 +118,7 @@ height: 500px;
     user-select: none;
     pointer-events: none;
     color: var(--color-disabled);
+}
+.active__filter{
+    opacity: 1;
 }
