@@ -68,8 +68,25 @@ margin: 0 auto;
 .list__wrapper{
     margin: var(--gutter-1) auto;
     font-size: var(--fs-1);
+    position: relative;
     overflow: hidden;
 }
+.list__wrapper::before{
+    margin: 1em 0;
+    content:attr(data-count);
+    font-size: 30px;
+}
+/* .list__wrapper::after{
+content: "";
+width: 10px;
+height: 10px;
+background-color: #000;
+border-radius: 50%;
+top: 0;
+left: 30%;
+position: absolute;
+cursor: pointer;
+} */
 
 .list__item{
     height: 3em;
