@@ -25,7 +25,7 @@ Array.from(document.querySelectorAll(".used__langs span")).map(ele => {
         } else {
 
             allListItems.map(v => v.classList.remove("hide__item"))
-            document.querySelector(".list__wrapper").setAttribute("data-count", `${allItems}/${allItems}`)
+            document.querySelector(".list__wrapper").setAttribute("data-count", `${allItems}/${allItems}`)``
         }
 
     })
