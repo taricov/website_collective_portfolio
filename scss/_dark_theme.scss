@@ -344,11 +344,11 @@ body {
 	// overflow: hidden;
   
 	&:before {
-	  content: '';
-	  position: absolute;
-	  inset: 0 -60% 65% -60%;
-	  background-image: radial-gradient(ellipse at top, #10B981 0%, var(--background-color) 50%);
-	  opacity: var(--blur-opacity);
+	//   content: '';
+	//   position: absolute;
+	//   inset: 0 -60% 65% -60%;
+	//   background-image: radial-gradient(ellipse at top, #10B981 0%, var(--background-color) 50%);
+	//   opacity: var(--blur-opacity);
 	}
   
   }

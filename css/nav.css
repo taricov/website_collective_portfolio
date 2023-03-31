@@ -1,0 +1,31 @@
+div.nav__wrapper a {
+  color: var(--text-color);
+  text-decoration: none;
+  -webkit-transition: .25s ease;
+  transition: .25s ease;
+}
+
+div.nav__wrapper ul {
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.nav__wrapper ul li {
+  margin-left: .75em;
+  margin-right: .75em;
+}
+
+div.nav__wrapper ul:hover a {
+  color: #CCC;
+}
+
+div.nav__wrapper ul:hover a:hover {
+  color: #000;
+  -webkit-box-shadow: 0 2px 0 0 currentcolor;
+          box-shadow: 0 2px 0 0 currentcolor;
+}
+/*# sourceMappingURL=nav.css.map */
