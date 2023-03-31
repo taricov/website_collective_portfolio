@@ -336,11 +336,12 @@ body {
   body {
 	min-height: 100vh;
 	display: flex;
+    flex-direction: column;
 	font-family: 'Inter', Arial;
 	justify-content: center;
 	align-items: center;
 	background-color: var(--background-color);
-	overflow: hidden;
+	// overflow: hidden;
   
 	&:before {
 	  content: '';
