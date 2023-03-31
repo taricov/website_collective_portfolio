@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 body {
     --background-color: #18181b;
     --text-color: #a1a1aa;
@@ -462,7 +464,8 @@ body .kaggle__icon {
     right: 50px;
 }
 .data__arrow p {
-margin:0;
+    font-family: 'Rock Salt', cursive;
+    margin:0;
 margin-left: 10px;
 }
 .data__arrow svg {
@@ -515,7 +518,6 @@ padding: 3px 5px;
     border: 1px solid var(--card-icon-border-color);
     backdrop-filter: blur(2px);
     color: #fff;
-
     transition: background-color 0.25s, border-color 0.25s;
 }
 .title__label{
