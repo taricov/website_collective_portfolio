@@ -363,6 +363,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: 'Inter', Arial;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -371,7 +375,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: var(--background-color);
-  overflow: hidden;
 }
 
 body:before {
@@ -534,6 +537,19 @@ body:before {
   color: #707070;
   -webkit-transition: .375s ease;
   transition: .375s ease;
+  text-align: center;
+}
+
+.intro__section {
+  color: var(--text-color);
+  font-family: arial;
+  width: 500px;
+  margin: auto;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.intro__section h1 {
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

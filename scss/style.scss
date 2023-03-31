@@ -125,3 +125,25 @@
 	transition: .375s ease;
 	text-align: center;
 }
+
+
+// .bg {
+//   background: url('https://i.imgur.com/USFbNpC.jpg') repeat;
+//   position: fixed;
+//   width: 100%;
+//   height: 300%;
+//   top:0;
+//   left:0;
+//   z-index: -1;
+// }
+.intro__section {
+  color: var(--text-color);
+  font-family: arial;
+  width: 500px;
+  margin: auto;
+  line-height: 20px;
+  font-size: 16px;
+  & h1{
+	text-align: center;
+  }
+}
