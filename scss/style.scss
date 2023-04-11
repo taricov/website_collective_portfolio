@@ -3,6 +3,15 @@
 @import "./projects.scss";
 @import "./nav.scss";
 
+.heading{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
 
 .checkbox-group {
 	display: flex;

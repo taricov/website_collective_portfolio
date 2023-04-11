@@ -1,3 +1,14 @@
+ul {
+  margin: 2rem auto;
+  padding: 0 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none !important;
+}
+
 div.nav__wrapper a {
   color: var(--text-color);
   text-decoration: none;
@@ -6,12 +17,15 @@ div.nav__wrapper a {
 }
 
 div.nav__wrapper ul {
+  font-size: 20px;
   margin: 2rem auto;
+  padding: 0 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  list-style: none !important;
 }
 
 div.nav__wrapper ul li {
@@ -24,8 +38,6 @@ div.nav__wrapper ul:hover a {
 }
 
 div.nav__wrapper ul:hover a:hover {
-  color: #000;
-  -webkit-box-shadow: 0 2px 0 0 currentcolor;
-          box-shadow: 0 2px 0 0 currentcolor;
+  opacity: .5;
 }
 /*# sourceMappingURL=nav.css.map */

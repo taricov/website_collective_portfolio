@@ -62,6 +62,19 @@ body.light {
     --card-hover-icon-border-color: rgba(24, 24, 27, 0.34);
     --blur-opacity: 0.1;
 }
+
+
+.back__btn{
+    position:absolute;
+    top:50px;
+    left: 100px;
+    width: 30px;
+    transition: all .5s;
+}
+.back__btn:hover{
+transform: translateX(-10px);
+}
+
 a{
     color: #fff;
 }

@@ -11,11 +11,24 @@
 }
 
 
+
+
 body{
     color: var(--color-font);
     font-family: var(--ff-1);
     background-color: var(--color-base);
+/* position: relative; */
+}
 
+.back__btn{
+    position:absolute;
+top:50px;
+left: 100px;
+width: 30px;
+transition: all .5s;
+}
+.back__btn:hover{
+transform: translateX(-10px);
 }
 
 header,
